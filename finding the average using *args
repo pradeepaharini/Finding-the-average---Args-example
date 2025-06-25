@@ -1,0 +1,12 @@
+def findAverage(*args):
+    total = 0
+    count = 0
+    for num in args:
+        total += num
+        count += 1
+    if count > 0:
+        print(f"Average: {total / count}")
+    else:
+        print("No numbers provided.")
+
+findAverage(5, 10, 15, 780, 90)  
