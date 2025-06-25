@@ -1,8 +1,8 @@
 def findAverage(*args):
     total = 0
     count = 0
-    for num in args:
-        total += num
+    for number in args:
+        total += number
         count += 1
     if count > 0:
         print(f"Average: {total / count}")
